@@ -1,0 +1,5 @@
+$ g++ octopus.cpp -o octopus $(pkg-config --cflags --libs openssl)
+
+sudo cp key_encryptor /usr/local/bin
+
+//chmod +x ~/bin/имя_вашей_команды
